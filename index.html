@@ -6,7 +6,20 @@ layout: default
 
   <img src="img/starterkit.png" alt="" />
   <p>
-    The LHCb Starterkit is an annual workshop for Master students and early PhD students. It covers basic tools such as Bash, Git, and Python as well as LHCb specific software projects.
+    The LHCb Starterkit is a workshop for Master students and early PhD students. It covers basic tools such as Bash, Git, and Python as well as LHCb specific software projects.
   </p>
+
+
+  <h1>Previous Starterkits</h1>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <h2>
+          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+        </h2>
+      </li>
+    {% endfor %}
+  </ul>
 
 </div>
