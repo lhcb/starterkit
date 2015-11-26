@@ -10,10 +10,17 @@ title: LHCb Starterkit
 email: lhcb-starterkit@cern.ch
 description: > # this means to ignore newlines until "baseurl:"
   This website contains all information concerning the LHCb Starterkit.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://lhcb.github.io/starterkit" # the base hostname & protocol for your site
+baseurl: "/starterkit" # the subpath of your site, e.g. /blog
 twitter_username: LHCbStarterkit
 github_username:  lhcb
 
 # Build settings
-markdown: kramdown
+markdown: redcarpet 
+highlighter: pygments
+
+exclude:
+    - Gemfile
+    - Gemfile.lock
+    - LICENSE
+    - README.md
+    - CNAME
