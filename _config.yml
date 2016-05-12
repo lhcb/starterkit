@@ -10,7 +10,6 @@ future: true
 
 # Build settings
 markdown: kramdown
-highlighter: pygments
 
 exclude:
     - Gemfile
