@@ -5,6 +5,8 @@ description: This website contains all the information concerning the LHCb Start
 baseurl: "/starterkit"
 twitter_username: LHCbStarterkit
 github_username:  lhcb
+# Display posts with dates in the future
+future: true
 
 # Build settings
 markdown: kramdown
