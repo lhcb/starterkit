@@ -3,23 +3,156 @@ layout: default
 ---
 
 <div class="home">
-
-  <img src="img/starterkit.png" alt="" />
+  <div class="media media--center statement">
+    <img src="img/starterkit.png" width="150px" alt="LHCb Starterkit">
+    <h2 class="body center">
+      Starterkit is a group of physicists who want to improve the working lives
+      of young researchers working on the LHCb experiment.
+    </h2>
+  </div>
   <p>
-    The LHCb Starterkit is a workshop for Master students and early PhD students. It covers basic tools such as Bash, Git, and Python as well as LHCb specific software projects.
+    We create and organise workshops that cover topics ranging from basic
+    programming skills, such as using Bash and Python, up to in-depth
+    explorations of the LHCb software.
   </p>
+  <div class="columns">
+    <div>
+      <div class="media">
+        <i class="icon ion-help"></i>
+        <div>
+          <h2>Always feeling stuck?</h2>
+          <p>The goal of Starterkit is to demystify the LHCb software.
+            If you've ever felt like you're not sure why your writing the code
+            you're writing, or not not sure what code you even need to write,
+            we can help you.
+          </p>
+        </div>
+      </div>
+      <div class="media">
+        <i class="icon ion-arrow-graph-up-right"></i>
+        <div>
+          <h2>From the bottom up</h2>
+          <p>We start from the very basics, each lesson building on the last.
+            Once you understand the details and how things fit together, you
+            have the power to learn more on your own.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="media">
+        <i class="icon ion-calendar"></i>
+        <div>
+          <h2>Up-to-date</h2>
+          <p>Our workshops are usually held twice per year, and we check that
+            the code in the lessons is up-to-date and that it works. Never be
+            frustrated by outdated tutorials again.</p>
+        </div>
+      </div>
+      <div class="media">
+        <i class="icon ion-chatbubbles"></i>
+        <div>
+          <h2>Join the collaboration</h2>
+          <p>Attendees of the workshops are generally Master's and PhD
+            students. You'll get to meet nice people doing interesting things,
+            getting to know the people who make ‘LHCb’ what it is.</p>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="media">
+        <i class="icon ion-calendar"></i>
+        <div>
+          <h2>Become a pro</h2>
+          <p>Not just for beginners, we also hold workshops for learning
+            the advanced aspects of LHCb software. At the end of the workshop,
+            everyone hacks on little, unique projects.</p>
+        </div>
+      </div>
+      <div class="media">
+        <i class="icon ion-chatbubbles"></i>
+        <div>
+          <h2>Pay it forward</h2>
+          <p>Starterkit is made up of young researchers who write and teach all
+            the material. You can contribute to all the lessons, and you can
+            join us to teach and to help at the next workshop.</p>
+        </div>
+      </div>
+    </div>
 
+  <h1>The material</h1> <p>All of the lessons we teach in the workshops are
+    available online, so that you can study at your own pace either before
+    or after a workshop.  We strive to make the lessons compact, correct, and
+    the best reference for performing particular tasks.</p> <p>The lessons are
+    divided in to <a href="https://lhcb.github.io/first-analysis-steps/">beginner lessons</a>,
+    which are useful for students just starting with LHCb and those who don't
+    feel comfortable with the software they're using, and
+    <a href="https://lhcb.github.io/second-analysis-steps/">advanced lessons</a>,
+    where some topics may not be useful to everyone, but give students a deeper
+    understand of how and why things work the way they do.</p>
 
-  <h1>Previous Starterkits</h1>
-  <ul class="post-list">
+  <h1>The workshops</h1>
+  <p>So far, Starterkit has organised two types of workshops: Starterkits, for 
+    early PhD and Master's students who need an introduction to LHCb and its 
+    software; and Impactkits, where more experienced students can learn 
+    advanced analysis techniques and hack on new ideas.</p>
+
+  {% comment %}
+    Compute the current date so that we can show past and future workshops.
+    Note that this is only computed once, when the site is built. Once a
+    workshop has finished, this site will (hopefully) be updated with the
+    summary of the workshop, and so this date will be recomputed.
+  {% endcomment %}
+  {% assign current_date = site.time | date: "%s" %}
+
+  <h2>Upcoming and future workshops</h2>
+  <p>This is the list of workshops that will happen soon and that we plan to
+    hold in the future. We send out emails to the <code>lhcb-general</code>
+    mailing list when the registration is open.</p>
+  <ul>
     {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
+      {% assign post_date = post.date | date: "%s" %}
+      {% if post_date > current_date %}
+        <li>
+          <span class="post-meta">
+            <a href="{{ post.indico }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+          </span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endif %}
     {% endfor %}
   </ul>
 
+  <h2>Previous workshops</h2>
+  <p>This is the list of workshops we've held so far.</p>
+  <ul class="post-list">
+    {% for post in site.posts %}
+      {% assign post_date = post.date | date: "%s" %}
+      {% if post_date < current_date %}
+        <li>
+          <span class="post-meta">
+            <a href="{{ post.indico }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+          </span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+
+  <h1>Contribute</h1>
+  <p>The lessons are <a href="https://github.com/{{ site.github_username }}">hosted on GitHub</a>,
+    and we encourage all readers and participants to
+    <a href="https://github.com/lhcb/first-analysis-steps/blob/master/CONTRIBUTING.md">fork, edit,
+      and create the content</a>. If you spot a problem with any of the
+    lessons, such as if an example no longer works or something needs further
+    clarification, please open an issue on the respective repository.</p>
+  <p>The success of Starterkit workshop depends the new people taking over from
+    the current cohort.  If you're interested in helping the next batch of
+    students be efficient, confident, and <emph>happy</emph> working on LHCb,
+    you can become a helper or a teacher in a workshop. You don't have to be a
+    coding wizard or an LHCb master, just enthusiastic about helping
+    people. Please <a href="mailto:lhcb-starterkit@cern.ch">get in touch</a>.</p>
 </div>
