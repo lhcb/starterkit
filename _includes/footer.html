@@ -2,12 +2,10 @@
 
   <div class="wrapper">
 
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
     <div class="footer-col-wrapper">
       <div class="footer-col footer-col-1">
         <ul class="contact-list">
-          <li>{{ site.title }}</li>
+          <li><a href="{{ site.url }}">{{ site.title }}</a></li>
           <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
         </ul>
       </div>
@@ -28,8 +26,15 @@
         </ul>
       </div>
 
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
+      <div class="footer-col footer-col-3 logos">
+        {% comment %}
+        The HTTPS LHCb link usually gives an warning/error as the CERN CA is
+        not trusted by most browsers.
+        The HTTPS CERN link redirects to the login page.
+        So, use HTTP for both.
+        {% endcomment %}
+        <a href="http://lhcb.cern.ch"><img class="logo logo--lhcb" src="img/logo-lhcb@2x.png"></a>
+        <a href="http://home.cern"><img class="logo logo--cern" src="img/logo-cern@2x.png"></a>
       </div>
     </div>
 
