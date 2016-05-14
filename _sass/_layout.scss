@@ -52,13 +52,38 @@
 
 .statement {
   margin: 20px 0;
+  h2 {
+    font-size: 0.9em;
+    font-weight: bold;
+  }
+  img {
+    width: 100px;
+  }
+}
+
+@media only screen and (min-device-width : 480px) {
+  .statement {
+    h2 {
+      font-size: 1em;
+      font-weight: normal;
+    }
+    img {
+      width: 150px;
+    }
+  }
 }
 
 .columns > div {
-  display: flex;
   padding: 20px 0;
-  & > div {
-    width: 50%;
+}
+
+// Side-by-side columns for wide devices
+@media only screen and (min-device-width : 480px) {
+  .columns > div {
+    display: flex;
+    & > div {
+      width: 50%;
+    }
   }
 }
 
@@ -77,6 +102,27 @@
   text-align: center;
   border-bottom: 1px solid #eee;
 }
+
+// Append icons for external links and mailtos
+.home, .post {
+  a[href*="//"]:not([href*="lhcb.github.io/starterkit"]) {
+    &:after {
+      content: '\f1fe';
+      font-family: 'Ionicons';
+      font-size: 0.8em;
+      margin-left: 3px;
+    }
+  }
+  a[href*="mailto:"] {
+    &:after {
+      content: '\f2c3';
+      font-family: 'Ionicons';
+      font-size: 0.8em;
+      margin-left: 3px;
+    }
+  }
+}
+
 
 article {
   padding-top: 10px;
@@ -129,6 +175,35 @@ article {
 .footer-col-3 {
     width: -webkit-calc(45% - (#{$spacing-unit} / 2));
     width:         calc(45% - (#{$spacing-unit} / 2));
+}
+
+.footer-col-3.logos {
+  display: flex;
+  justify-content: space-around;
+
+  .logo--cern {
+    // The CERN logo guidelines state that the width must be no less than 60px
+    // We don't need it any wider, so use 60px
+    max-width: 60px;
+  }
+  .logo--lhcb {
+    // The CERN logo is square, and we set a width of 60px, and therefore a
+    // 60px height. Give the LHCb logo the same height so they like nice
+    // side-by-side
+    max-height: 60px;
+  }
+}
+
+@media only screen and (min-device-width : 480px) {
+  .footer-col-3.logos {
+    justify-content: flex-end;
+    .logo {
+      margin: 0 $spacing-unit;
+    }
+    .logo:last-child {
+      margin-right: 0;
+    }
+  }
 }
 
 @include media-query($on-laptop) {

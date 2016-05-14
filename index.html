@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
   <div class="media media--center statement">
-    <img src="img/starterkit.png" width="150px" alt="LHCb Starterkit">
+    <img src="img/starterkit.png" alt="LHCb Starterkit">
     <h2 class="body center">
       Starterkit is a group of physicists who want to improve the working lives
       of young researchers working on the LHCb experiment.
@@ -114,7 +114,11 @@ layout: default
       {% if post_date > current_date %}
         <li>
           <span class="post-meta">
-            <a href="{{ post.indico }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+            {% if post.indico %}
+              <a href="{{ post.indico }}" title="Indico page">{{ post.date | date: "%b %-d, %Y" }}</a>
+            {% else %}
+              {{ post.date | date: "%b %-d, %Y" }}
+            {% endif %}
           </span>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
@@ -132,7 +136,7 @@ layout: default
       {% if post_date < current_date %}
         <li>
           <span class="post-meta">
-            <a href="{{ post.indico }}">{{ post.date | date: "%b %-d, %Y" }}</a>
+            <a href="{{ post.indico }}" title="Indico page">{{ post.date | date: "%b %-d, %Y" }}</a>
           </span>
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
