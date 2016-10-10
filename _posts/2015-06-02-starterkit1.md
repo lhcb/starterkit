@@ -3,6 +3,7 @@ layout: post
 title:  "First Starterkit"
 date:   2015-06-02 08:55 +0100
 categories: archive starterkit
+indico: https://indico.cern.ch/event/376901/
 ---
 
 The first ever LHCb Starterkit took place at CERN from 2nd to 5th of June 2015.
