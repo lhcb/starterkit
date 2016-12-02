@@ -110,7 +110,7 @@ Thank you, helpers!
 Last, but by no means least, a huge thank you to **Svende Braun** and **Lorenzo 
 Capriotti** for organising the social event. Svende took on a huge burden but 
 couldn't have done better. The night ended with everyone merry, full, and with 
-good memories.  Thank you Svenda and Lorenzo!
+good memories.  Thank you Svende and Lorenzo!
 
 Here's a photo of some of the teachers and helpers at the social event.
 
