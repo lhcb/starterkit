@@ -61,7 +61,7 @@ Without the enormous effort of the helpers, teachers, organisers, and [everyone
 who contributes][first-ana-contributors] to the [lessons on 
 GitHub][first-ana-steps], the Starterkit could not happen.
 
-This year's Starterkit was organised by **Igor Babuschkin** and **Carla 
+This year's Starterkit was organised by **Igor Babuschkin** and **Carla Marin 
 Benito**.  It takes a phenomenal amount of effort to organise the workshop, and 
 the work begins months in advance. This year, Igor and Carla have done an 
 amazing job: booking rooms, finding teachers and helpers, registering students, 
@@ -74,7 +74,7 @@ regular physicists and computer scientists who wanted to share their knowledge
 to help others, and they nailed it:
 
 * Igor Babuschkin
-* Carla Benito
+* Carla Marin Benito
 * Christopher Burr
 * Lorenzo Capriotti
 * Marco Clemencic
@@ -107,14 +107,34 @@ students. Along with the teachers who also helped, they are:
 
 Thank you, helpers!
 
-Last, but by no means least, a huge thank you to **Svende Braun** for 
-organising the social event. Svende took on a huge burden but couldn't have 
-done better. The night ended with everyone merry, full, and with good memories. 
-Thank you Svenda!
+Last, but by no means least, a huge thank you to **Svende Braun** and **Lorenzo 
+Capriotti** for organising the social event. Svende took on a huge burden but 
+couldn't have done better. The night ended with everyone merry, full, and with 
+good memories.  Thank you Svenda and Lorenzo!
 
 Here's a photo of some of the teachers and helpers at the social event.
 
 ![Some Starterkit 2016 teachers and helpers at the social event]({{ site.baseurl }}/img/2016-11/social_teachers_helpers.jpg)
+
+## Lessons
+
+The [first-analyis-steps][first-ana-steps] repository is the core of the 
+workshop, as well as serving as year-round reference material. Since [last 
+time]({{ site.baseurl }}{% post_url 2015-11-10-starterkit-run2 %}), these 
+people have contributed to the repository, along with the people above, and we 
+can't thank them enough for their time:
+
+* Sarah Beranek
+* Joel Closier
+* Pieter David
+* Christophe Haen
+* Tim Head
+* Maurizio Martinelli
+* Henry Schreiner
+* Konstantin Schubert
+* Mark Smith
+
+Please keep those pull requests coming; we have [lots to do][first-ana-issues]!
 
 ## Wrap up
 
@@ -126,3 +146,4 @@ Until next year!
 
 [first-ana-steps]: https://lhcb.github.io/first-analysis-steps/
 [first-ana-contributors]: https://github.com/lhcb/first-analysis-steps/graphs/contributors
+[first-ana-issues]: https://github.com/lhcb/first-analysis-steps/issues
