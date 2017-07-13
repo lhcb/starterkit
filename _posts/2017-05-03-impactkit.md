@@ -58,6 +58,7 @@ cycle of frustration when there's no help available.
 * Sascha Stahl
 * Alex Pearce
 * Greg Ciezarek
+* Dominik Müller
 * Mark Whitehead
 * Rosen Matev
 * Roel Aaij
