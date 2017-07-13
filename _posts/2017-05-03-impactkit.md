@@ -6,9 +6,9 @@ categories: archive impactkit
 indico: https://indico.cern.ch/event/624551/
 ---
 
-The second LHCb Impactkit workshop was held at CERN from 3rd May and 5th May 2017, with 19 participants from 13 institutions across 5 countries. 
-The students were taught advanced DaVinci algorithms, HTL TisTos and Turbo, how to 
-write a DecFile, how to manage data on the grid with Ganga and how to develop LHCb software using LHCb git. It was an intense couple of days which ended in a 1.5 days long hackathon, where the students, divided in groups of 2, had to work on projects regarding mainly collaboration-wide issues or on other personal projects in line with the subjects of the lectures.
+The second LHCb Impactkit workshop was held at CERN from 3rd to 5th May 2017, with 19 participants from 13 institutions across 5 countries. 
+The students were taught advanced DaVinci algorithms, Hlt TisTos and Turbo, how to 
+write a DecFile, how to manage data on the grid with Ganga and how to develop LHCb software using LHCb git. It was an intense couple of days which ended in a 1.5 days long hackathon, where the students, divided in groups of 2, had to work on projects regarding mainly collaboration-wide issues, such as implementing a loose filter for generic samples or converting a stripping lin to a trigger line, or on other personal projects in line with the subjects of the lectures, like writing a new stripping line or DecFile. 
 
 The last day of workshop, completely dedicated to the hackathon, took place at the pit, where we also had a chance to eat lunch together and to have a nice barbecue at the end of the day, which also marked the end of the workshop - in the best way possible!
 
@@ -20,7 +20,7 @@ Here are some photos taken on the last day:
 ![Dinner at the pit]({{ site.baseurl }}/img/2017-05/foto3.jpg)
 
 
-The Starterkit team would like to thank all the students for attending. Our passion in teaching would serve no purpose without your will to learn.
+The Starterkit team would like to thank all the students for attending. Our passion for teaching would serve no purpose without your will to learn.
 
 ## Feedback
 
@@ -92,7 +92,7 @@ We wish to thank also everybody who contributed to the update of the [repository
 
 Thanks guys for your concrete help! 
 
-And, whoever is reading this: remember that there is always [something to do][issues], so please com help us!
+And, whoever is reading this: remember that there is always [something to do][issues], so please come help us!
 
 One last, but not least, thank you goes the organisers of the 2017 Impactkit (in alphabetical order):
 
