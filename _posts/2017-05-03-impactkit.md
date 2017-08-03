@@ -12,8 +12,9 @@ write a DecFile, how to manage data on the grid with Ganga and how to develop LH
 
 The last day of workshop, completely dedicated to the hackathon, took place at the pit, where we also had a chance to eat lunch together and to have a nice barbecue at the end of the day, which also marked the end of the workshop - in the best way possible!
 
-Here are some photos taken on the last day:
+Here are some photos taken during the workshop:
 
+![Presenting the projects at IdeaSquare]({{ site.baseurl }}/img/2017-05/foto4.jpg)
 ![Heavy chopping]({{ site.baseurl }}/img/2017-05/foto0.jpg)
 ![Puttanesca sauce in all its beauty]({{ site.baseurl }}/img/2017-05/foto1.jpg)
 ![Hackathon in progress]({{ site.baseurl }}/img/2017-05/foto2.jpg)
@@ -61,8 +62,8 @@ cycle of frustration when there's no help available.
 * Dominik Müller
 * Mark Whitehead
 * Rosen Matev
-* Roel Aaij
 * Lucia Grillo
+* Bassem Khanji
 * Alessio Piucci
 * Iwan Smith
 
@@ -79,7 +80,7 @@ cycle of frustration when there's no help available.
 
 and again to all the teachers that helped along.
 
-A big thank you also to **Barbara Storaci**, **Stephanie Reichert** and [ADD NAMES], who provided most of the projects proposed for the hackathon. Thanks guys!
+A big thank you also to **Barbara Storaci**, **Stefanie Reichert** and **Sebastian Neubert**, who provided some of the projects proposed for the hackathon. Thanks guys!
 
 The last day of the Impactkit, fully dedicated to the hackathon, was entirely spent at the pit, where we had lunch together, with an amazing pasta alla puttanesca, and finished with a massive BBQ. The Impactkit is not only coding and learning but also creating a network of reciprocal trust and friendship, and there is no better way to do it than over food and drinks. A special thank you goes to the organisers, cooks, choppers, grillers of both social meals: **Alessio Piucci**, **Jennifer Zonneveld**, **Albert Puig Navarro**, **Benedetto Siddi**, **Elena Graverini**, **Lorenzo Capriotti** and **Svende Braun**. Thank you guys for the amazing atmosphere you managed to create!
 
@@ -99,6 +100,9 @@ One last, but not least, thank you goes the organisers of the 2017 Impactkit (in
 * Lorenzo Capriotti
 
 Svende and Lorenzo started organising the workshop several months before, trying to find volunteers for teaching and helping, booking rooms, managing the budget, buying coffee and biscuits, and setting up all the logistic aspects before and during the workshop. Thank you both for your dedication and for the great job! 
+
+![Svende & Lorenzo]({{ site.baseurl }}/img/2017-05/organisers.jpg)
+
 
 ## Wrap up
 
