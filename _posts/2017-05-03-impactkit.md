@@ -65,7 +65,6 @@ cycle of frustration when there's no help available.
 * Lucia Grillo
 * Alessio Piucci
 * Iwan Smith
-* Sebastian Neubert
 
 ...and following with all the helpers, who proved that no problem is insurmountable and ensured all the lectures to be carried out in the smoothest way possible. Thank you very much to (in random order):
 
@@ -80,9 +79,9 @@ cycle of frustration when there's no help available.
 
 and again to all the teachers that helped along.
 
-A big thank you also to **Barbara Storaci**, who provided most of the projects proposed for the hackathon. Thanks, Barbara!
+A big thank you also to **Barbara Storaci**, **Stephanie Reichert** and [ADD NAMES], who provided most of the projects proposed for the hackathon. Thanks guys!
 
-The last day of the Impactkit, fully dedicated to the hackathon, was entirely spent at the pit, where we had lunch together, with an amazing pasta alla puttanesca, and finished with a massive BBQ. The Impactkit is not only coding and learning but also creating a network of reciprocal trust and friendship, and there is no better way to do it than over food and drinks. A special thank you goes to the organisers, cooks, choppers, grillers of both social meals: **Alessio Piucci**, **Jennifer Zonneveld**, **Albert Puig Navarro**, **Alex Pearce**, **Benedetto Siddi**, **Elena Graverini**, **Lorenzo Capriotti** and **Svende Braun**. Thank you guys for the amazing atmosphere you managed to create!
+The last day of the Impactkit, fully dedicated to the hackathon, was entirely spent at the pit, where we had lunch together, with an amazing pasta alla puttanesca, and finished with a massive BBQ. The Impactkit is not only coding and learning but also creating a network of reciprocal trust and friendship, and there is no better way to do it than over food and drinks. A special thank you goes to the organisers, cooks, choppers, grillers of both social meals: **Alessio Piucci**, **Jennifer Zonneveld**, **Albert Puig Navarro**, **Benedetto Siddi**, **Elena Graverini**, **Lorenzo Capriotti** and **Svende Braun**. Thank you guys for the amazing atmosphere you managed to create!
 
 We wish to thank also everybody who contributed to the update of the [repository][repository] after the last Impactkit and everybody who helped shape the lectures. Most of the people involved have already been mentioned as teachers or helpers, so this will be a short list:
 
