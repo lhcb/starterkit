@@ -40,9 +40,6 @@ If you are taking on new PhD students this year, please consider bringing this
 workshop to their attention or registering on their behalf if they will be
 starting in the coming weeks.
 
-Kind regards,
-The Starterkit team
-
 
 [indico]: https://indico.cern.ch/e/lhcb-starterkit-2017
 [email]: mailto:lhcb-starterkit@cern.ch
