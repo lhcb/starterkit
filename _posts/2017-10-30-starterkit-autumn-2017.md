@@ -12,7 +12,7 @@ With 49 participants from LHCb and 25 from ALICE, we set a new record for partic
 
 On Thursday evening, an enormous pizza party allowed the participants to start networking while having food and drinks with the teachers, helpers and organizers. We had an amazing time!
 
- ![The Starterkit 2017 pizza party]({{ site.baseurl }}/img/2017-11/social-all.jpg)
+ [![The Starterkit 2017 pizza party]({{ site.baseurl }}/img/2017-11/social-all-small.jpg)]({{ site.baseurl }}/img/2017-11/social-all.jpg)
 
 ## Feedback
 
@@ -77,7 +77,7 @@ A key point to the Starterkit concept, the helpers are here to make sure that pr
  * Violaine Bellée
  * Vitalii Lisovskyi
 
- ![The Starterkit team 2017]({{ site.baseurl }}/img/2017-11/team.jpg)
+ [![The Starterkit team 2017]({{ site.baseurl }}/img/2017-11/team-small.jpg)]({{ site.baseurl }}/img/2017-11/team.jpg)
 
 ## The lessons
 
