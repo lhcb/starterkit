@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Starterkit Autumn 2017
-date: 2018-02-05 13:00 +0100
+date: 2017-10-30
 categories: starterkit
 indico: https://indico.cern.ch/e/lhcb-starterkit-2017
 ---
