@@ -14,11 +14,11 @@ The last day of workshop, completely dedicated to the hackathon, took place at t
 
 Here are some photos taken during the workshop:
 
-![Presenting the projects at IdeaSquare]({{ site.baseurl }}/img/2017-05/foto4.jpg)
-![Heavy chopping]({{ site.baseurl }}/img/2017-05/foto0.jpg)
-![Puttanesca sauce in all its beauty]({{ site.baseurl }}/img/2017-05/foto1.jpg)
-![Hackathon in progress]({{ site.baseurl }}/img/2017-05/foto2.jpg)
-![Dinner at the pit]({{ site.baseurl }}/img/2017-05/foto3.jpg)
+[![Presenting the projects at IdeaSquare]({{ site.baseurl }}/img/2017-05/foto4-small.jpg)]({{ site.baseurl }}/img/2017-05/foto4.jpg)
+[![Heavy chopping]({{ site.baseurl }}/img/2017-05/foto0-small.jpg)]({{ site.baseurl }}/img/2017-05/foto0.jpg)
+[![Puttanesca sauce in all its beauty]({{ site.baseurl }}/img/2017-05/foto1-small.jpg)]({{ site.baseurl }}/img/2017-05/foto1.jpg)
+[![Hackathon in progress]({{ site.baseurl }}/img/2017-05/foto2-small.jpg)]({{ site.baseurl }}/img/2017-05/foto2.jpg)
+[![Dinner at the pit]({{ site.baseurl }}/img/2017-05/foto3-small.jpg)]({{ site.baseurl }}/img/2017-05/foto3.jpg)
 
 
 The Starterkit team would like to thank all the students for attending. Our passion for teaching would serve no purpose without your will to learn.
@@ -101,7 +101,7 @@ One last, but not least, thank you goes the organisers of the 2017 Impactkit (in
 
 Svende and Lorenzo started organising the workshop several months before, trying to find volunteers for teaching and helping, booking rooms, managing the budget, buying coffee and biscuits, and setting up all the logistic aspects before and during the workshop. Thank you both for your dedication and for the great job! 
 
-![Svende & Lorenzo]({{ site.baseurl }}/img/2017-05/organisers.jpg)
+[![Svende & Lorenzo]({{ site.baseurl }}/img/2017-05/organisers-small.jpg)]({{ site.baseurl }}/img/2017-05/organisers.jpg)
 
 
 ## Wrap up

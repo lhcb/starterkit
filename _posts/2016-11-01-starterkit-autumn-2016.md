@@ -19,7 +19,7 @@ On Thursday evening, we held a social event where the students, helpers,
 teachers, and organisers could relax together with a few drinks and some food.
 It was great fun; here's a shot of everyone from the evening:
 
-![The Starterkit 2016 social event]({{ site.baseurl }}/img/2016-11/social.jpg)
+[![The Starterkit 2016 social event]({{ site.baseurl }}/img/2016-11/social-small.jpg)]({{ site.baseurl }}/img/2016-11/social.jpg)
 
 The Starterkit team would like to thank all the students for attending, for 
 being such good participants, and being patient with us when things didn't 
@@ -114,7 +114,7 @@ good memories.  Thank you Svende and Lorenzo!
 
 Here's a photo of some of the teachers and helpers at the social event.
 
-![Some Starterkit 2016 teachers and helpers at the social event]({{ site.baseurl }}/img/2016-11/social_teachers_helpers.jpg)
+[![Some Starterkit 2016 teachers and helpers at the social event]({{ site.baseurl }}/img/2016-11/social_teachers_helpers-small.jpg)]({{ site.baseurl }}/img/2016-11/social_teachers_helpers.jpg)
 
 ## Lessons
 

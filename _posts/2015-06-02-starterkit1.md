@@ -56,4 +56,4 @@ As part of the first Starterkit there was a social event: BBQ at the LHCb
 experiment. Thanks to all the helpers and most importantly the grill champion
 Conor it was a huge success.
 
-![Picture of attendants having fun at the BBQ.]({{site.baseurl}}/img/2015-06/bbq.jpg)
+[![Picture of attendants having fun at the BBQ.]({{site.baseurl}}/img/2015-06/bbq-small.jpg)](![Picture of attendants having fun at the BBQ.]({{site.baseurl}}/img/2015-06/bbq.jpg))
