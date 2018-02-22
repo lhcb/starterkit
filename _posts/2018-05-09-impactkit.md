@@ -2,7 +2,7 @@
 layout: post
 title: 2018 Impactkit
 date: 2018-05-09
-categories: archive impactkit
+categories: impactkit
 indico: https://indico.cern.ch/e/2018-lhcb-impactkit/
 ---
 
