@@ -8,7 +8,7 @@ indico: https://indico.cern.ch/e/lhcb-starterkit-2021
 
 
 The LHCb Starterkit is back for the 2021 edition! 
-This year's Starterkit will be held from the 22nd to 26th of Novemebr 2021 in online format with the possibility of having some rooms booked at CERN.
+This year's Starterkit will be held from the 22nd to 26th of November 2021 in online format with the possibility of having some rooms booked at CERN.
 
 Registration opens on October the 1st! You can find all necessary information, including the
 registration form on [the Indico page for the event][indico].
